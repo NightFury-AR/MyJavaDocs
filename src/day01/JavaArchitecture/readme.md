@@ -11,7 +11,8 @@ Need of JVM
 - its takes care of Memory Management and Optimizations🚀 (JIT compiler and Garbage Collector).
 - it verifies the byte code to avoid any malicious attacks.
 
-where is the JVM👽 ?
+where is the JVM👽 ?  
+
 ![JDKplace](https://user-images.githubusercontent.com/72085278/129445039-d72926d4-774d-45fe-abaf-5f277444d8f2.JPG)
 
 
@@ -32,7 +33,9 @@ where is the JVM👽 ?
 - Native method stacks are used by JVM to support native methods. The  term native method in Java refers to any method written in a language other than Java.
 
 **Garbage collector**
-- Garbage Collector is used by the Execution Engine to replace explicit deallocation of objects. The Garbage Collector automatically considers the unreferenced objects in the heap as garbage and reclaims the memory.
+- Garbage Collector is used by the Execution Engine to replace explicit deallocation of objects. The Garbage Collector automatically considers the unreferenced objects in the heap as garbage and reclaims the memory.  
+
+![JVMdiag2](https://user-images.githubusercontent.com/72085278/129445104-905438b9-3343-484d-8f04-5bafbc5274ff.JPG)
 
 
 more details : 
