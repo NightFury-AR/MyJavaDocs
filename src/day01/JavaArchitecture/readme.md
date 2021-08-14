@@ -12,7 +12,7 @@ Need of JVM
 - it verifies the byte code to avoid any malicious attacks.
 
 where is the JVM👽 ?
-<<image>>
+![JDKplace](https://user-images.githubusercontent.com/72085278/129445039-d72926d4-774d-45fe-abaf-5f277444d8f2.JPG)
 
 
 **PC Register**
