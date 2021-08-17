@@ -1,13 +1,15 @@
 package day01.JavaBasics;
 
 import java.lang.reflect.Field;
-
+//leave it if you can't understand. will see this later
 //class
 public class JavaClassAndObjects02 {
+    //members
     private String button;
     private int speakers;
     private String brand;
     public int gh;
+
     //constructor
     public JavaClassAndObjects02 () {
         System.out.println("Radio Manufacturing Finished!");
@@ -15,6 +17,7 @@ public class JavaClassAndObjects02 {
     public JavaClassAndObjects02(String brand) {
         this.brand = brand;
     }
+
     //radio have buttons and speakers
     public void increaseVolume() {
         System.out.println(this.brand+" : Volume increased!");
@@ -22,6 +25,7 @@ public class JavaClassAndObjects02 {
     public void changeTheChannel() { System.out.println(this.brand+" :Channel changed!"); }
 
     public static void main(String args[]) throws NoSuchFieldException {
+
         //object
         JavaClassAndObjects02 SonyRadio = new JavaClassAndObjects02("Sony");
         SonyRadio.increaseVolume();
