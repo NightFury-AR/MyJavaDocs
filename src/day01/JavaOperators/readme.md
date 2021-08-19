@@ -86,7 +86,7 @@ If a = 10 and b = 20, the result of each operation is mentioned in the Result co
 **5.Logical Operator**
 
 | Operator	| Operation	 | Expression	| Result |
-|-----------|:-----------:|:-----------:|:-----------:|  
+|:----------|:-----------:|:-----------:|:-----------:|  
 |&#1472;&#1472;|Short Circuit OR|	a &#1472;&#1472; b | true |
 |&&|	Short Circuit AND|	a&&b|	false|
 |!|NOT|	!a	|false| 
