@@ -15,6 +15,7 @@ package day03.JavaNumbersAndStrings;
 
 public class JavaNumbers {
     public static void main(String[] args) {
+
         Integer subTypeOfNumber = 127;// you can use Float,Double..etc.,
         System.out.println("Byte : "+subTypeOfNumber.byteValue());
         System.out.println("Short : "+subTypeOfNumber.shortValue());
