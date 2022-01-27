@@ -14,5 +14,8 @@ public class CollectionSMethods {
            Collections.sort(list);
            System.out.println(list);
            Collections.sort(list,Collections.reverseOrder());
+           //Collections.synchronizedList();
+           //Collections.emptyList()
+            //Collections.
     }
 }

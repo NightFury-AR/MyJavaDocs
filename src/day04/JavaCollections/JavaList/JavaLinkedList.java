@@ -10,6 +10,8 @@ public class JavaLinkedList {
         System.out.println("will do after my DSA learnings");
         List<String> list = new LinkedList<String>();
         list.add("hello");
+        list.add(5,"hehehe");
+
 
 
     }

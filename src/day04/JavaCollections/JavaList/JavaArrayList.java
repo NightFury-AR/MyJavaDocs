@@ -5,7 +5,7 @@ import java.util.*;
 public class JavaArrayList {
     public static void main(String[] args) {
 
-        //1.creating using array
+        //1.creating list using array
         String s[] = {"my","boy","!"};
         List<String> fromArray = Arrays.asList(s);
         //2.creating by passing string[]

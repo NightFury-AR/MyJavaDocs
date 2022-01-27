@@ -1,6 +1,6 @@
 **Java Encapsulation**
 
-Java provides two levels of abstraction.
+Java provides two levels of encapsulations.
 
 1.class/interface level  
 2.member/variable level
