@@ -1,7 +1,9 @@
 package day08;
 
-import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
 
 class MyArrayList<E> {
     Object[] listData;
@@ -18,7 +20,7 @@ class MyArrayList<E> {
     }
 
     public boolean isEmpty() {
-        return this.size==0 ? true : false;
+        return this.size == 0;
     }
 
     private void increaseCapacity(){

@@ -20,6 +20,7 @@ class TrackLifeCycle implements Runnable {
 
 public class Java00003ThreadLifeCycles {
     public static void main(String[] args) throws InterruptedException {
+
         TrackLifeCycle t = new TrackLifeCycle();
         Thread th= new Thread(t);
         // NEW state

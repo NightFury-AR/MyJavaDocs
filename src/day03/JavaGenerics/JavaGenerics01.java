@@ -1,6 +1,7 @@
 package day03.JavaGenerics;
 
 class VehiclePlantNew<T> {
+
     private T vehicleType;
     //setter
     public void produceVehicle(T t) {
@@ -10,6 +11,7 @@ class VehiclePlantNew<T> {
     public T deliverVehicle() {
         return vehicleType;
     }
+
 }
 
 public class JavaGenerics01 {

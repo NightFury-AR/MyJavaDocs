@@ -19,10 +19,10 @@ public class Java00001UsingThread {
         r.setName("Robo 1");
         Robot2 r2 = new Robot2();
         r2.setName("Robo 2");
-        Robot1 r1c = new Robot1();
-        r1c.setName("Robo 1 v2");
+        Robot1 r3 = new Robot1();
+        r3.setName("Robo 1 v2");
         r.start();
-        r1c.start();
         r2.start();
+        r3.start();
     }
 }

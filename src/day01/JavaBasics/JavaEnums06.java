@@ -25,7 +25,7 @@ public class JavaEnums06 {
                 return "Ordinary clothing set, normal guns";
             }
         },
-        NOOB {
+        NOOB() {
             @Override
             public String getRewards() {
                 return "Ordinary hat";
